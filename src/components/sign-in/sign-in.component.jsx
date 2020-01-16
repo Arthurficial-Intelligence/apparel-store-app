@@ -8,7 +8,7 @@ import CustomButton from "../custom-button/custom-button.component";
 import { signInWithGoogle } from "../../firebase/firebase.utilities";
 
 const SignIn = () => {
-  const [signInObject, setSignInObject] = useState({
+  const [ signInObject, setSignInObject ] = useState({
     email: "",
     password: ""
   });
