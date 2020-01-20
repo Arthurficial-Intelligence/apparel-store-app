@@ -5,3 +5,6 @@ This is a simple personal improvment app. I started it to try out some different
 
 ## Start Up
 This is a CRA so simply clone and npm install, and npm start to run the application.
+
+## Current Status
+This app is currently being worked on. 
