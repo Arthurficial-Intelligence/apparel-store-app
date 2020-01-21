@@ -8,3 +8,7 @@ This is a CRA so simply clone and npm install, and npm start to run the applicat
 
 ## Current Status
 This app is currently being worked on. 
+
+## Tech used
+This is mainly a Redux React app currently. 
+I will soon throw in some Redux-saga, session storage, more hooks, and GraphQL Applo.
