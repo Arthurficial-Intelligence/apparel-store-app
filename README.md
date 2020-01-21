@@ -11,4 +11,4 @@ This app is currently being worked on.
 
 ## Tech used
 This is mainly a Redux React app currently. 
-I will soon throw in some Redux-saga, session storage, more hooks, and GraphQL Applo.
+I will soon throw in some Redux-saga, local storage, more hooks, and GraphQL Applo.
