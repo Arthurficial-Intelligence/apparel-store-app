@@ -5,7 +5,11 @@ import logger from "redux-logger";
 import roodReducer from "./root-reducer";
 
 //simple array that I can stick all of my middle ware into
-const middlewares = [logger];
+const middlewares = [];
+
+if(process.env.NODE_ENV === 'development'){
+    middlewares.push(logger);
+}
 
 export const store = createStore(roodReducer, applyMiddleware(...middlewares));
 
