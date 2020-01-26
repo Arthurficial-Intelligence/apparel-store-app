@@ -6,6 +6,8 @@ This is a simple personal improvment app. I started it to try out some different
 ## Dev Environment Start Up
 This is a CRA so simply clone and npm install, and npm start to run the application.
 
+There is also a component library server for development that can be ran with npx styleguidist server
+
 ## Current Status
 This app is deployed at https://arthurs-shop.herokuapp.com/ but is also having features added to it. 
 
