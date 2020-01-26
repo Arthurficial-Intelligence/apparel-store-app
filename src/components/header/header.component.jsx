@@ -6,8 +6,8 @@ import { createStructuredSelector } from "reselect";
 import { auth } from "../../firebase/firebase.utilities";
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
-import { selectCurrentUser } from '../../redux/user/user.selector';
-import { selectCartHidden } from '../../redux/cart/cart.selectors';
+import { selectCurrentUser } from "../../redux/user/user.selector";
+import { selectCartHidden } from "../../redux/cart/cart.selectors";
 
 import { ReactComponent as Logo } from "../../assets/crown.svg";
 
@@ -23,9 +23,6 @@ const Header = ({ currentUser, toggleCart }) => {
         <div className="options">
           <Link to="/shop" className="option">
             SHOP
-          </Link>
-          <Link to="/contact" className="option">
-            CONTACT
           </Link>
           {currentUser ? (
             <div className="option" onClick={() => auth.signOut()}>
@@ -46,7 +43,7 @@ const Header = ({ currentUser, toggleCart }) => {
 
 const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser,
-  toggleCart: selectCartHidden,
+  toggleCart: selectCartHidden
 });
 
 export default connect(mapStateToProps)(Header);
