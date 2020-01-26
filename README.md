@@ -3,12 +3,12 @@
 This is a simple personal improvment app. I started it to try out some different things with React.js. This is a small part of how I am tyring to redefine myself as a developer.
 
 
-## Start Up
+## Dev Environment Start Up
 This is a CRA so simply clone and npm install, and npm start to run the application.
 
 ## Current Status
-This app is currently being worked on. 
+This app is deployed at https://arthurs-shop.herokuapp.com/ but is also having features added to it. 
 
 ## Tech used
-This is mainly a Redux React app currently. 
-I will soon throw in some Redux-saga, local storage, more hooks, and GraphQL Applo.
+This is mainly a Redux React app currently with Stripe, redux-reselect, and redux-persist. 
+I will soon throw in some Redux-saga, some hooks and context to replace some redux actions, and GraphQL Applo.
